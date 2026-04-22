@@ -19,6 +19,33 @@ partial class Program
         ActionSelectes();
     }
 
+    static void ActionSelectes()
+    {
+        PrintLine("Seleccione una accion:");
+        PrintLine("");
+        PrintLine("1. Comprar producto");
+        PrintLine("2. Salir");
+        PrintLine("");
+
+        int action = int.Parse(Console.ReadLine()!);
+
+        switch (action)
+        {
+            case 1:
+                Program program = new Program("", 0);
+                program.BuyProduct();
+                break;
+            case 2:
+                PrintLine("Gracias por usar el inventario");
+                break;
+            default:
+                PrintLine("Opcion no valida");
+                break;
+        }
+
+    }
+
+
 
     void BuyProduct()
     {
@@ -57,32 +84,6 @@ partial class Program
             }
         }
     }
-    static void ActionSelectes()
-    {
-        PrintLine("Seleccione una accion:");
-        PrintLine("");
-        PrintLine("1. Comprar producto");
-        PrintLine("2. Salir");
-        PrintLine("");
-
-        int action = int.Parse(Console.ReadLine()!);
-
-        switch (action)
-        {
-            case 1:
-                Program program = new Program("", 0);
-                program.BuyProduct();
-                break;
-            case 2:
-                PrintLine("Gracias por usar el inventario");
-                break;
-            default:
-                PrintLine("Opcion no valida");
-                break;
-        }
-
-    }
-
 }
 
 
