@@ -7,11 +7,11 @@ partial class Program
         double doubleNumber = 3.14;
         decimal decimalNumber = 19.99m;
         float floatNumber = 2.718f;
-
+        SeparatorTitle("Numeric Types");
         Print([$"Integer: {integerNumber}",
                $"Double: {doubleNumber}",
                $"Decimal: {decimalNumber}",
                $"Float: {floatNumber}"]);
-        Separator();
+
     }
 }

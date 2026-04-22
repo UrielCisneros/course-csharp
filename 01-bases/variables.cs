@@ -17,12 +17,12 @@ partial class Program
             string text = "Uriel Cisneros";
             double pi = 3.1416;
             bool isActive = true;
-
+            SeparatorTitle("Variables");
             DisplayMessage($"Number: {number}");
             DisplayMessage($"Text: {text}");
             DisplayMessage($"Pi: {pi}");
             DisplayMessage($"Is Active: {isActive}");
-            Separator();
+            // Separator();
         }
     }
 }

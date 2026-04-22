@@ -12,3 +12,4 @@
 /Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/course-csharp.pdb
 /Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/course-csharp.genruntimeconfig.cache
 /Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/ref/course-csharp.dll
+/Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/course-csharp.sourcelink.json

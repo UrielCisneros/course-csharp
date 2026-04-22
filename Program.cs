@@ -7,7 +7,9 @@ partial class Program
         Variables();
         NumericTypes();
         HomeWork1();
-        RunCalculate();
+        // RunCalculate();
+        Arrays();
+        RunRotate();
     }
 }
 

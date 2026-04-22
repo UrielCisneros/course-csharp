@@ -9,12 +9,12 @@ partial class Program
         double price = 1500.00;
         double totalAmount = 0.0;
 
+        SeparatorTitle("HomeWork 1: Product Purchase");
         PrintLine($"Product: {product}");
         PrintLine($"Quantity: {quantity}");
         PrintLine($"Price: {price:C}");
         totalAmount = quantity * price;
         PrintLine($"Total Amount: {totalAmount:C}");
-        Separator();
 
     }
 }

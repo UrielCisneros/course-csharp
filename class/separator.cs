@@ -18,4 +18,12 @@ partial class Program
     {
         Print("===============================");
     }
+
+
+    static void SeparatorTitle(string title)
+    {
+        Print("");
+        Print($"-----------{title}-----------");
+        Print("");
+    }
 }
