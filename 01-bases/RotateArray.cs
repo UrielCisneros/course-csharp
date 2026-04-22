@@ -22,34 +22,34 @@ partial class Program
     //        [9, 6, 3]]
 
 
-    static void RotateArray(object[][] array)
+    static void RotateArray<T>(T[][] array)
     {
         if (array.Length <= 0)
         {
             PrintLine("Array vacio");
             return;
         }
-        
+
         SeparatorTitle("Input Array");
         PrintArray(array);
 
-        
+
         int rows = array.Length;      // 3 filas
         int cols = array[0].Length;   // 3 columnas
-        
+
         // Se inicializa el array rotado con las dimensiones intercambiadas
-        object[][] rotatedArray = new object[cols][];
-        
-        // Se inicializa el array de casa row
-        for(int i = 0; i < cols; i++)
+        T[][] rotatedArray = new T[cols][];
+
+        // Se inicializa el array de cada fila
+        for (int i = 0; i < cols; i++)
         {
-            rotatedArray[i] = new object[rows];
+            rotatedArray[i] = new T[rows];
         }
-        
+
         //Se rota el array original 90 grados en sentido horario
-        for(int i = 0; i < rows; i++)
+        for (int i = 0; i < rows; i++)
         {
-            for(int j = 0; j < cols; j++)
+            for (int j = 0; j < cols; j++)
             {
                 rotatedArray[j][rows - 1 - i] = array[i][j];
             }
@@ -60,11 +60,11 @@ partial class Program
         PrintArray(rotatedArray);
     }
 
-    static void PrintArray(object[][] array)
+    static void PrintArray<T>(T[][] array)
     {
-        for(int i = 0; i < array.Length; i++)
+        for (int i = 0; i < array.Length; i++)
         {
-            for(int j = 0; j < array[i].Length; j++)
+            for (int j = 0; j < array[i].Length; j++)
             {
                 Console.Write(array[i][j] + " ");
             }

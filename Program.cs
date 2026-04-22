@@ -10,7 +10,8 @@ partial class Program
         // RunCalculate();
         Arrays();
         RunRotate();
-        RunInventary();
+        // RunInventary();
+        Generict();
     }
 }
 
