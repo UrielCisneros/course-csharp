@@ -1,0 +1,14 @@
+/Users/urielcisneros/Documents/Courses/course-csharp/bin/Debug/net10.0/course-csharp
+/Users/urielcisneros/Documents/Courses/course-csharp/bin/Debug/net10.0/course-csharp.deps.json
+/Users/urielcisneros/Documents/Courses/course-csharp/bin/Debug/net10.0/course-csharp.runtimeconfig.json
+/Users/urielcisneros/Documents/Courses/course-csharp/bin/Debug/net10.0/course-csharp.dll
+/Users/urielcisneros/Documents/Courses/course-csharp/bin/Debug/net10.0/course-csharp.pdb
+/Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/course-csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/course-csharp.AssemblyInfoInputs.cache
+/Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/course-csharp.AssemblyInfo.cs
+/Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/course-csharp.csproj.CoreCompileInputs.cache
+/Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/course-csharp.dll
+/Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/refint/course-csharp.dll
+/Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/course-csharp.pdb
+/Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/course-csharp.genruntimeconfig.cache
+/Users/urielcisneros/Documents/Courses/course-csharp/obj/Debug/net10.0/ref/course-csharp.dll
