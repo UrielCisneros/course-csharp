@@ -66,9 +66,9 @@ partial class Program
         {
             for (int j = 0; j < array[i].Length; j++)
             {
-                Console.Write(array[i][j] + " ");
+                Write(array[i][j] + " ");
             }
-            Console.WriteLine();
+            WriteLine();
         }
     }
 

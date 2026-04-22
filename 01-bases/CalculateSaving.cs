@@ -49,16 +49,16 @@ partial class Program
     static void CaptureData()
     {
         PrintLine("Ingrese el dinero que puede ahorrar por año:");
-        decimal saving_years = Convert.ToDecimal(Console.ReadLine());
+        decimal saving_years = Convert.ToDecimal(ReadLine());
 
         PrintLine("Ingrese la cantidad de dinero que ha ahorrado hasta ahora:");
-        decimal savings_now = Convert.ToDecimal(Console.ReadLine());
+        decimal savings_now = Convert.ToDecimal(ReadLine());
 
         PrintLine("Ingrese el número de años que planea ahorrar:");
-        int years_of_saving = Convert.ToInt32(Console.ReadLine());
+        int years_of_saving = Convert.ToInt32(ReadLine());
 
         PrintLine("Ingrese la tasa de interés anual (en porcentaje):");
-        double porsentaje = Convert.ToDouble(Console.ReadLine());
+        double porsentaje = Convert.ToDouble(ReadLine());
         double anual_interest = porsentaje < 100 ? porsentaje / 100 : porsentaje;
 
         Program program = new Program(saving_years, savings_now, years_of_saving, anual_interest);

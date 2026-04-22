@@ -8,7 +8,7 @@ partial class Program
 
         static void DisplayMessage(string message)
         {
-            Console.WriteLine(message);
+            WriteLine(message);
         }
 
         static void RunCode()

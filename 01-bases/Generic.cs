@@ -32,6 +32,6 @@ class Box<T>
 
     public void Show()
     {
-        Console.WriteLine($"Contenido: {Content}");
+        WriteLine($"Contenido: {Content}");
     }
 }

@@ -7,12 +7,12 @@ partial class Program
     {
         foreach (var message in args)
         {
-            Console.WriteLine(message);
+            WriteLine(message);
         }
     }
 
     static void PrintLine(string message)
     {
-        Console.WriteLine(message);
+        WriteLine(message);
     }
 }

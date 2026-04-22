@@ -27,7 +27,7 @@ partial class Program
         PrintLine("2. Salir");
         PrintLine("");
 
-        int action = int.Parse(Console.ReadLine()!);
+        int action = int.Parse(ReadLine()!);
 
         switch (action)
         {
@@ -57,9 +57,9 @@ partial class Program
         PrintLine("");
         PrintLine("Ingrese el producto a comprar (nombre del producto):");
         PrintLine("");
-        string? productSelected = Console.ReadLine();
+        string? productSelected = ReadLine();
         PrintLine("Ingrese la cantidad a comprar:");
-        int quantity = int.Parse(Console.ReadLine()!);
+        int quantity = int.Parse(ReadLine()!);
         PrintLine("");
 
         Program program = new Program(productSelected!, quantity);
