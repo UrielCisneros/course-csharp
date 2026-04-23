@@ -12,6 +12,7 @@ partial class Program
         RunRotate();
         // RunInventary();
         Generict();
+        TestingClass();
     }
 }
 
