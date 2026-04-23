@@ -13,6 +13,7 @@ partial class Program
         // RunInventary();
         Generict();
         TestingClass();
+        Homework05();
     }
 }
 
