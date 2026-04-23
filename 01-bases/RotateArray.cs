@@ -37,7 +37,7 @@ partial class Program
         int rows = array.Length;      // 3 filas
         int cols = array[0].Length;   // 3 columnas
 
-        // Se inicializa el array rotado con las dimensiones intercambiadas
+        // Se inicializa el array rotado con las dimensiones de array inicial
         T[][] rotatedArray = new T[cols][];
 
         // Se inicializa el array de cada fila
