@@ -14,6 +14,7 @@ partial class Program
         Generict();
         TestingClass();
         Homework05();
+        ShowPirates();
     }
 }
 
