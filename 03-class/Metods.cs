@@ -27,6 +27,22 @@ class Car
     public string? Model { get; set; }
     public string? Year { get; set; }
 
+    //Contructores
+    public Car(string model, string year)
+    {
+        Model = model;
+        Year = year;
+    }
+
+    public Car() { }
+
+    //Destructor
+    ~Car()
+    {
+        WriteLine("El objeto Car ha sido destruido");
+    }
+
+
     public void ChangeModel(string newModel)
     {
         Model = newModel;
