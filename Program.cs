@@ -15,6 +15,7 @@ partial class Program
         TestingClass();
         Homework05();
         ShowPirates();
+        Homework06();
     }
 }
 
