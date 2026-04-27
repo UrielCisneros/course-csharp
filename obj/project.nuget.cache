@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FfgvhjN1OO4=",
+  "dgSpecHash": "Jvl90dOy0Mw=",
   "success": true,
   "projectFilePath": "/Users/urielcisneros/Documents/Courses/course-csharp/course-csharp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/urielcisneros/.nuget/packages/betterconsoletables/1.1.3/betterconsoletables.1.1.3.nupkg.sha512"
+  ],
   "logs": []
 }
